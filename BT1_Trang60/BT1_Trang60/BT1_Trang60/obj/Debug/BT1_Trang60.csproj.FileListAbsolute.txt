@@ -1,0 +1,12 @@
+D:\BT1_Trang60\BT1_Trang60\BT1_Trang60\bin\Debug\BT1_Trang60.exe.config
+D:\BT1_Trang60\BT1_Trang60\BT1_Trang60\bin\Debug\BT1_Trang60.exe
+D:\BT1_Trang60\BT1_Trang60\BT1_Trang60\bin\Debug\BT1_Trang60.pdb
+D:\BT1_Trang60\BT1_Trang60\BT1_Trang60\obj\Debug\BT1_Trang60.csprojResolveAssemblyReference.cache
+D:\BT1_Trang60\BT1_Trang60\BT1_Trang60\obj\Debug\BT1_Trang60.Form1.resources
+D:\BT1_Trang60\BT1_Trang60\BT1_Trang60\obj\Debug\BT1_Trang60.Properties.Resources.resources
+D:\BT1_Trang60\BT1_Trang60\BT1_Trang60\obj\Debug\BT1_Trang60.csproj.GenerateResource.Cache
+D:\BT1_Trang60\BT1_Trang60\BT1_Trang60\obj\Debug\BT1_Trang60.exe
+D:\BT1_Trang60\BT1_Trang60\BT1_Trang60\obj\Debug\BT1_Trang60.pdb
+E:\TaiLieu\WindowsForm\BT1_Trang60\BT1_Trang60\BT1_Trang60\bin\Debug\BT1_Trang60.exe.config
+E:\TaiLieu\WindowsForm\BT1_Trang60\BT1_Trang60\BT1_Trang60\obj\Debug\BT1_Trang60.exe
+E:\TaiLieu\WindowsForm\BT1_Trang60\BT1_Trang60\BT1_Trang60\obj\Debug\BT1_Trang60.pdb

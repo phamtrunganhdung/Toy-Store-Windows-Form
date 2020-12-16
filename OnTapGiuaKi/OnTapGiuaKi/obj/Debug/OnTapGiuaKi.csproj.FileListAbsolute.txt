@@ -1,0 +1,9 @@
+E:\TaiLieu\WindowsForm\OnTapGiuaKi\OnTapGiuaKi\bin\Debug\OnTapGiuaKi.exe.config
+E:\TaiLieu\WindowsForm\OnTapGiuaKi\OnTapGiuaKi\bin\Debug\OnTapGiuaKi.exe
+E:\TaiLieu\WindowsForm\OnTapGiuaKi\OnTapGiuaKi\bin\Debug\OnTapGiuaKi.pdb
+E:\TaiLieu\WindowsForm\OnTapGiuaKi\OnTapGiuaKi\obj\Debug\OnTapGiuaKi.csprojResolveAssemblyReference.cache
+E:\TaiLieu\WindowsForm\OnTapGiuaKi\OnTapGiuaKi\obj\Debug\OnTapGiuaKi.frmSinhVien.resources
+E:\TaiLieu\WindowsForm\OnTapGiuaKi\OnTapGiuaKi\obj\Debug\OnTapGiuaKi.Properties.Resources.resources
+E:\TaiLieu\WindowsForm\OnTapGiuaKi\OnTapGiuaKi\obj\Debug\OnTapGiuaKi.csproj.GenerateResource.Cache
+E:\TaiLieu\WindowsForm\OnTapGiuaKi\OnTapGiuaKi\obj\Debug\OnTapGiuaKi.exe
+E:\TaiLieu\WindowsForm\OnTapGiuaKi\OnTapGiuaKi\obj\Debug\OnTapGiuaKi.pdb

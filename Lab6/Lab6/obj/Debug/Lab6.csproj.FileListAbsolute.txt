@@ -1,0 +1,14 @@
+E:\TaiLieu\WindowsForm\Lab6\Lab6\bin\Debug\Lab6.exe.config
+E:\TaiLieu\WindowsForm\Lab6\Lab6\bin\Debug\Lab6.exe
+E:\TaiLieu\WindowsForm\Lab6\Lab6\bin\Debug\Lab6.pdb
+E:\TaiLieu\WindowsForm\Lab6\Lab6\obj\Debug\Lab6.csprojResolveAssemblyReference.cache
+E:\TaiLieu\WindowsForm\Lab6\Lab6\obj\Debug\Lab6.BillDetailsForm.resources
+E:\TaiLieu\WindowsForm\Lab6\Lab6\obj\Debug\Lab6.BillForm.resources
+E:\TaiLieu\WindowsForm\Lab6\Lab6\obj\Debug\Lab6.FoodForm.resources
+E:\TaiLieu\WindowsForm\Lab6\Lab6\obj\Debug\Lab6.CategoryForm.resources
+E:\TaiLieu\WindowsForm\Lab6\Lab6\obj\Debug\Lab6.Properties.Resources.resources
+E:\TaiLieu\WindowsForm\Lab6\Lab6\obj\Debug\Lab6.Account.resources
+E:\TaiLieu\WindowsForm\Lab6\Lab6\obj\Debug\Lab6.RoleAccount.resources
+E:\TaiLieu\WindowsForm\Lab6\Lab6\obj\Debug\Lab6.csproj.GenerateResource.Cache
+E:\TaiLieu\WindowsForm\Lab6\Lab6\obj\Debug\Lab6.exe
+E:\TaiLieu\WindowsForm\Lab6\Lab6\obj\Debug\Lab6.pdb

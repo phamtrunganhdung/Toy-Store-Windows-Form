@@ -1,0 +1,5 @@
+D:\RestaurantManagementProject\DataAccess\bin\Debug\DataAccess.dll
+D:\RestaurantManagementProject\DataAccess\bin\Debug\DataAccess.pdb
+D:\RestaurantManagementProject\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\RestaurantManagementProject\DataAccess\obj\Debug\DataAccess.dll
+D:\RestaurantManagementProject\DataAccess\obj\Debug\DataAccess.pdb
