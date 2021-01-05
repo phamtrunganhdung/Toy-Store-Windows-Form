@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -45,7 +46,10 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.xemDanhSáchLoạiThứcĂnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFood)).BeginInit();
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -149,6 +153,7 @@
             // dgvFood
             // 
             this.dgvFood.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvFood.ContextMenuStrip = this.contextMenuStrip1;
             this.dgvFood.Location = new System.Drawing.Point(601, 45);
             this.dgvFood.MultiSelect = false;
             this.dgvFood.Name = "dgvFood";
@@ -198,6 +203,20 @@
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.xemDanhSáchLoạiThứcĂnToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(221, 26);
+            // 
+            // xemDanhSáchLoạiThứcĂnToolStripMenuItem
+            // 
+            this.xemDanhSáchLoạiThứcĂnToolStripMenuItem.Name = "xemDanhSáchLoạiThứcĂnToolStripMenuItem";
+            this.xemDanhSáchLoạiThứcĂnToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
+            this.xemDanhSáchLoạiThứcĂnToolStripMenuItem.Text = "Xem danh sách loại thức ăn";
+            this.xemDanhSáchLoạiThứcĂnToolStripMenuItem.Click += new System.EventHandler(this.xemDanhSáchLoạiThứcĂnToolStripMenuItem_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -226,6 +245,7 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMain_FormClosing);
             this.Load += new System.EventHandler(this.frmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvFood)).EndInit();
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -250,6 +270,8 @@
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem xemDanhSáchLoạiThứcĂnToolStripMenuItem;
     }
 }
 

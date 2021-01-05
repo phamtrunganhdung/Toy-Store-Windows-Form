@@ -68,7 +68,7 @@ namespace OnTapCuoiKi
             else
             {
                 string query = "INSERT INTO Food (Name,Unit,FoodCategoryID,Price,Notes) VALUES (N'" + txtName.Text + "', N'" + txtUnit.Text + "', N'" + txtFoodCategoryID.Text + "', N'" + txtPrice.Text + "', N'" + txtNotes.Text + "')";
-                Function.RunSQL(query);
+                Function.RunSQLExecuteNonQuery(query);
                 getDataToDgv();
                 clearText();
             }
@@ -92,7 +92,7 @@ namespace OnTapCuoiKi
             else
             {
                 string query = "UPDATE Food SET Name = N'" + txtName.Text + "', Unit = N'" + txtUnit.Text + "', FoodCategoryID = N'" + txtFoodCategoryID.Text + "', Price = N'" + txtPrice.Text + "', Notes = N'" + txtNotes.Text + "' WHERE ID = N'" + txtID.Text + "'";
-                Function.RunSQL(query);
+                Function.RunSQLExecuteNonQuery(query);
                 getDataToDgv();
                 clearText();
             }        
@@ -104,7 +104,7 @@ namespace OnTapCuoiKi
             if(result == DialogResult.Yes)
             {
                 string query = "DELETE FROM Food WHERE ID = N'" + txtID.Text + "'";
-                Function.RunSQL(query);
+                Function.RunSQLExecuteNonQuery(query);
                 getDataToDgv();
                 clearText();
             }else if (result == DialogResult.No)
@@ -126,6 +126,11 @@ namespace OnTapCuoiKi
             {
                 e.Cancel = true;
             }
+        }
+        private void xemDanhSáchLoạiThứcĂnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CategoryForm category = new CategoryForm();
+            category.ShowDialog();
         }
     }
 }

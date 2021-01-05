@@ -30,7 +30,6 @@ namespace OnTapCuoiKi
                 Con = null;
             }
         }
-
         public static DataTable GetDataToTable(string sql)
         {
             SqlDataAdapter adap = new SqlDataAdapter(sql, Con);
@@ -40,8 +39,7 @@ namespace OnTapCuoiKi
 
             return data;
         }
-
-        public static void RunSQL(string sql)
+        public static void RunSQLExecuteNonQuery(string sql)
         {
             SqlCommand cmd = new SqlCommand(sql, Con);
 
@@ -49,40 +47,15 @@ namespace OnTapCuoiKi
             {
                 cmd.ExecuteNonQuery();
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
 
-                MessageBox.Show(ex.ToString());
+                MessageBox.Show(e.ToString());
             }
 
             cmd.Dispose();
             cmd = null;
         }
-
-        public static void FillCombo(string sql, ComboBox cbo, string id, string name)
-        {
-            SqlDataAdapter adap = new SqlDataAdapter(sql, Con);
-            DataTable data = new DataTable();
-            adap.Fill(data);
-
-            cbo.DataSource = data;
-            cbo.DisplayMember = name;
-            cbo.ValueMember = id;
-            
-        }
-
-        public static bool checkKey(string sql)
-        {
-            DataTable table = GetDataToTable(sql);
-            if (table.Rows.Count > 0)
-            {
-                return true;
-            }
-
-            return false;
-
-        }
-
         public static string GetFieldValue(string sql)
         {
             string value = "";
@@ -97,5 +70,16 @@ namespace OnTapCuoiKi
             reader.Close();
             return value;
         }
+        //public static void FillCombo(string sql, ComboBox cbo, string id, string name)
+        //{
+        //    SqlDataAdapter adap = new SqlDataAdapter(sql, Con);
+        //    DataTable data = new DataTable();
+        //    adap.Fill(data);
+
+        //    cbo.DataSource = data;
+        //    cbo.DisplayMember = name;
+        //    cbo.ValueMember = id;
+
+        //}
     }
 }
